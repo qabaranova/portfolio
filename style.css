@@ -1,8 +1,8 @@
-﻿/*Import*/
+/*Import*/
 @import url(https://fonts.googleapis.com/css?family=Pacifico);
 @import url(https://fonts.googleapis.com/css?family=Caveat);
-@import url(https://fonts.googleapis.com/css?family=Klee+One);
-  
+@import url(https://fonts.googleapis.com/css?family=Balsamiq+Sans);
+
   .show-more:hover {
     background-color: #000;
     color: #fff;
@@ -44,7 +44,7 @@ h2 {
   
 p {
     color: #2b2b2b;
-    font-family: 'Klee One';
+    font-family: 'Balsamiq Sans', cursive;
 }
 
 .show-more {
@@ -54,12 +54,12 @@ p {
     background-color: #cbcbcb;
     color: #2b2b2b;
     transition: background-color 0.5s ease;
-    font-family: 'Klee One';
+    font-family: 'Balsamiq Sans', cursive;
   }
   .show-more:hover {
     background-color:#2b2b2b ;
     color: #cbcbcb;
-    font-family: 'Klee One';
+    font-family: 'Balsamiq Sans', cursive;
     cursor: pointer;
   }
 
@@ -162,6 +162,6 @@ figcaption{
 }
 
 img {
-  max-width: 100%; /* Обеспечиваем, чтобы изображение внутри figure не выходило за пределы родительского контейнера */
+  max-width: 100%;
 }
   }

@@ -44,7 +44,7 @@ h2 {
   
 p {
     color: #2b2b2b;
-    font-family: 'Klee One', cursive;
+    font-family: 'Klee One';
 }
 
 .show-more {
@@ -54,12 +54,12 @@ p {
     background-color: #cbcbcb;
     color: #2b2b2b;
     transition: background-color 0.5s ease;
-    font-family: 'Klee One', cursive;
+    font-family: 'Klee One';
   }
   .show-more:hover {
     background-color:#2b2b2b ;
     color: #cbcbcb;
-    font-family: 'Klee One', cursive;
+    font-family: 'Klee One';
     cursor: pointer;
   }
 

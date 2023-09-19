@@ -1,4 +1,3 @@
-/*Import*/
 @import url(https://fonts.googleapis.com/css?family=Pacifico);
 @import url(https://fonts.googleapis.com/css?family=Caveat);
 @import url(https://fonts.googleapis.com/css?family=Balsamiq+Sans);
@@ -16,7 +15,7 @@
   }
 
 body{
-    background-color: #cbcbcb;
+    background-color: #d8d3e6;
     padding-right: 5%;
     padding-left: 5%;
 
@@ -25,7 +24,7 @@ body{
 h1 {
     font-family: Pacifico;
     font-size: calc(25px + (40 + 40 * 0.7) *(100vw - 320px) / 2560);
-    color: #6b6969;
+    color: #4c4957;
 }
 
 .first-screen {
@@ -51,14 +50,14 @@ p {
     border-radius: 25px;
     border: 2px solid #2b2b2b;
     padding: 15px 20px;
-    background-color: #cbcbcb;
+    background-color: #d8d3e6 ;
     color: #2b2b2b;
     transition: background-color 0.5s ease;
     font-family: 'Balsamiq Sans', cursive;
   }
   .show-more:hover {
     background-color:#2b2b2b ;
-    color: #cbcbcb;
+    color: #d8d3e6;
     font-family: 'Balsamiq Sans', cursive;
     cursor: pointer;
   }
@@ -165,3 +164,23 @@ img {
   max-width: 100%;
 }
   }
+
+@media (min-width: 1990px) {
+figure{
+  width: 672px;
+  height: 806px;
+}
+figcaption{
+  font-size: 60px;
+}
+p {
+  font-size: 25px;
+}
+h2 {
+  font-size: 45px;
+}
+.show-more{
+  font-size: 20px;
+}
+
+}  

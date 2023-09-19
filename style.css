@@ -24,7 +24,7 @@ body{
 h1 {
     font-family: Pacifico;
     font-size: calc(25px + (40 + 40 * 0.7) *(100vw - 320px) / 2560);
-    color: #6f6c78;
+    color: #605087;
 }
 
 .first-screen {
